@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-style: normal;
+    font-family: [Bai Jamjuree];
+}
+
+.container{
+    margin: auto 20px;
+    padding: 20px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    width: full;
+     overflow: hidden;
+}
+
+.header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    justify-items: center;
+    padding: 40px 20px;
+
+}
+
+h1{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.header p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    width: 500px;
+
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: hsl(171, 66%, 44%);
+    font-size: 0.8rem;
+    border-radius: 50px;
+
+}
+
+.download{
+    margin-bottom: 100px;
+}
+
+.download button:nth-child(2){
+    background-color: hsl(233, 100%, 69%);
+}
+
+.track{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.clip{
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 500px;
+    color: hsl(210, 10%, 33%);
+    margin: 20px 80px 40px ;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 5px;
+}
+
+.grid div:nth-child(1){
+    width: 2/3;
+}
+
+.grid div:nth-child(1) img{
+    width: 400px;
+}
+
+.grid div:nth-child(2){
+    width: 1/3;
+    width: 200px;
+}
+
+.sub-head{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    margin:25px 0px 5px 10px;
+    text-align: left;
+}
+
+.passage{
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+.access h3{
+    margin: 80px 20px 10px;
+    font-size: 1.9rem;
+    color:hsl(210, 10%, 33%);
+    font-weight: bold;
+    text-align: center;
+}
+
+.access p{
+    font-size: 0.9rem;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-weight: 400;
+    width: 500px;
+}
+
+.device{
+    margin: 80px;
+
+}
+
+.device img{
+    width: 500px;
+}
+
+.super{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.super p{
+    font-size: 1rem;
+    margin: 10px 40px;
+    font-weight: 200;
+    color: hsl(210, 10%, 33%);
+}
+
+.grid-box{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+    color: hsl(210, 10%, 33%);
+}
+
+.grid-box1{
+    width: 1/3;
+    display: block;
+    justify-items: center;
+}
+
+.black{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.black2{
+    justify-items: center;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 200px;
+    /* padding: 0 40px; */
+}
+
+.grid-box2{
+    width: 1/3;
+    display: block;
+    justify-items: center;
+}
+.plain{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.remove{
+    justify-items: center;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 200px;
+}
+
+.grid-box3{
+    width: 1/3;
+    display: block;
+    justify-items: center;
+}
+.sneak{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.quick{
+    justify-items: center;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 200px;
+    color: hsl(210, 10%, 33%);
+}
+
+.grid-box4{
+    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    margin: 80px 0 100px;
+    gap: 80px;
+}
+
+
+.gb1{
+    flex: 1;
+}
+.gb2{
+    flex: 1;
+}
+.gb3{
+    flex: 1;
+}
+.gb4{
+    flex: 1;
+}
+.gb5{
+    flex: 1;
+}
+.ios{
+    display: block;
+    margin: 80px 40px;
+    width: 500px;
+    justify-content: center;
+    justify-items: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.mac{
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.iosmac{
+    font-size: 0.9rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: hsl(171, 66%, 44%);
+    font-size: 0.8rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.down{
+    margin-bottom: 100px;
+}
+
+.down button:nth-child(2){
+    background-color: hsl(233, 100%, 69%);
+}
+
+.footer{
+    position: relative;
+    background-image: url(./images/bg-header-desktop.png);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+.footer img:first-child{
+    width: 30px;
+    margin: 40px 0 0 20px;
+}
+.faqs{
+    display: block;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0 0 20px;
+}
+.faqs :first-child{
+    margin-bottom: 10px;
+}
+
+
+
